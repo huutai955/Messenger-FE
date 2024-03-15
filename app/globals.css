@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .boxshadow-bottom {
+    box-shadow: -7px 13px 14px -4px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: -7px 13px 14px -4px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: -7px 13px 14px -4px rgba(0, 0, 0, 0.12);
+  }
+
+  /* ... */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
